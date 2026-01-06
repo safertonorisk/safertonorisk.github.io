@@ -1,0 +1,61 @@
+header{
+    background-color: white;
+}
+article{
+    width: 80%;
+        margin: 0 auto;
+        display: block;
+        padding-left: 10%;
+}
+
+ .rowart{
+    width: 100%;
+        margin: 0 auto;
+        display: block;
+}
+ .colart{
+    margin: 10px 0 0 0;
+    width: 19%;
+    float: left;
+    min-height: 350px;
+    max-height: 600px;
+    font-size: 1vw;
+    margin-left: 1%;
+    display: block;
+    text-align: center;
+    min-width: 150px;
+}
+article .colart img{
+    padding-top:  20px;
+    margin:auto;
+    width: 40%;
+}
+article .colart p{
+    color: white;
+}
+article .colart h1{
+    font-weight: bold;
+    font-size: xx-large;
+}
+article p{
+    width: 85%;
+    margin: auto;
+    font-size: large;
+}
+article a{
+    color: teal;
+}
+
+#mainCarousel{
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+@media only screen and (max-width: 1080px) {
+    #mainCarousel{
+        width: 100%;
+    }
+    article{
+        padding-left: 0%;
+    }
+}
